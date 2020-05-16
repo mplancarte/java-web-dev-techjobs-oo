@@ -21,6 +21,7 @@ public class JobTest {
         test_job4 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
 
     }
+    
     @Test
     public void testSettingJobId() {
         assertNotEquals(test_job1.getId(), test_job2.getId());
